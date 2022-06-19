@@ -12,8 +12,8 @@ void lorenz (int n, var type *yp, const var type *yinit, var type t, void * para
     yp[1]=(p3*x[0])-(p2*x[1]); 
     
     interval p1(0.2, 0.3);
-    const int p2 = 1.9255;
-    const int p3 = 0.1451;
+    const double p2 = 1.9255;
+    const double p3 = 0.1451;
     
 }
 
